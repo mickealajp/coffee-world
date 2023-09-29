@@ -1,8 +1,12 @@
 import "./Header.scss";
+import logo from "../../assets/coffee-logo.jpeg";
 
 function Header () {
     return (
-        <h1>Hello World</h1>
+      <section>
+        <h1>Coffee World</h1>
+        <img src={logo} alt="coffee"></img>
+      </section>
     );
 }
 
